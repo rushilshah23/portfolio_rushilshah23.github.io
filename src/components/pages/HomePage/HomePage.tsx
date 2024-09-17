@@ -185,7 +185,7 @@ const HomePage = () => {
       <main className='pt-14'>
         <motion.section
           id='hero'
-          className="relative lg:flex flex-row container lg:mt-10"
+          className="relative lg:flex flex-row container lg:mt-10 "
           initial={{ opacity: 0, y: 0 }}
           animate={{ opacity: heroInView ? 1 : 0, y: heroInView ? 0 : 100 }}
           transition={{ duration: 0.5 }}
@@ -205,7 +205,8 @@ const HomePage = () => {
             {/* <FadeInImageFromBottom src={'/portrait_animated.jpeg'} alt='Rushil Shah' width={450} height={350} /> */}
 
           </div>
-          <div className='mt-16  md:m-0 md:p-0 lg:absolute lg:top-[45%] lg:left-[15%]'>
+          <div className='mt-16  md:m-0 md:p-0 lg:absolute lg:top-[45%]  lg:left-[15%] '>
+      
             <HeroInfoBox />
             </div>
         </motion.section>
